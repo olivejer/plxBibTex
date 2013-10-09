@@ -1,0 +1,1 @@
+<p style="margin-top:20px">Pour afficher la bibliographie, ins&eacute;rer cette ligne :<br /><pre style="font-size:1.2em;margin-left:20px">&lt;?php eval($plxShow->CallHook('BibTex')); ?></pre>ou pour une page statique :<pre style="font-size:1.2em;margin-left:20px">&lt;?php</br>global $plxShow;</br>eval($plxShow->CallHook('BibTex')); </br>?></pre></p>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+<title><![CDATA[plxBibTex]]></title>
+<author><![CDATA[Jérôme OLIVE]]></author>
+<version>1.0</version>
+<date>01/10/2013</date>
+<site>http://www.jeromeolive.net</site>
+<description><![CDATA[Plugin permettant l'affichage une bibliographie stockée en fichier Bibtex, basé sur le script d'Andreas Classen : www.classen.be/bibtex2html/]]></description>
+</document>

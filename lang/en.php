@@ -1,0 +1,36 @@
+<?php
+$LANG = array(
+'L_TITLE_CONFIG'			=> 'plxBibTex setup',
+'L_DESCRIPTION'		=> 'Bibliography viewer',
+'L_FILE_PATH'		=> 'Bibliography filepath ',
+'L_FILE_PATH_EX'		=> 'ex : data/documents/biblio.bib ',
+'L_SAVE'			=> 'Save',
+'L_AUTHORS_HIGHLIGHT' =>'Authors to Highlight (separated by \';\') ',
+'L_AUTHORS_FILTER' =>'Authors filter (separated by \';\') ',
+'L_AUTHORS_HIGHLIGHT_EX' =>'ex: curie;einstein;tesla',
+'L_CHOICES' =>'Categories to preview:',
+'L_AUTHORS_NUMBER' =>'Number of authors:',
+'L_ALL' =>'Check all references',
+'L_NONE' =>'Uncheck all references',
+'L_NONE_DESC' =>'Be carefull. If no reference has been checked, all references will be shown.',
+'L_ARTICLE' =>'Articles',
+'L_BOOK' =>'Books',
+'L_BOOKLET' =>'Booklets',
+'L_CONFERENCE' =>'Conferences',
+'L_INBOOK' =>'In Book',
+'L_INCOLLECTION' =>'Collections',
+'L_MANUAL' =>'Manuals',
+'L_INPROCEEDINGS' =>'Conference Articles',
+'L_MISC' =>'Misc',
+'L_PHDTHESIS' =>'PhD Thesis',
+'L_PROCEEDINGS' =>'Proceedings',
+'L_TECHREPORT' =>'Technical Report',
+'L_UNPUBLISHED' =>'Unpublisheds',
+'L_UNKNOWN' =>'Unknowns',
+'L_MASTERTHESIS' => 'Master Thesis',
+'L_AUTHORS_NUMBER_EX' => 'ex: 4',
+'L_GROUP' => 'Group references by category',
+'L_GROUPYEAR' => 'Group references by year'
+);
+
+?>

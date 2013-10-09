@@ -1,0 +1,7 @@
+Version 1.0 (09/10/2013)
+[+] Ajout des catégories à afficher
+[+] Ajout des aides (fr,en)
+[+] Résolution du bug des redirections (sous PHP 5.2.17)
+
+Version 0.1 (02/10/2013)
+(Version initiale)
