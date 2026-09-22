@@ -236,9 +236,9 @@ if(!empty($_POST)) {
 	</table>
 		<p class="field"><i><?php $plxPlugin->lang('L_NONE_DESC'); ?></i></p>
 		<p class="field"><label for="group"><?php $plxPlugin->lang('L_GROUP'); ?> : </label></p>
-		<input type="checkbox" <? if ($plxPlugin->getParam('group') == 1) echo "checked=\"checked\""; ?> id="group" name="group" value="group">
+		<input type="checkbox" <?php if ($plxPlugin->getParam('group') == 1) echo "checked=\"checked\""; ?> id="group" name="group" value="group">
 		<p class="field"><label for="groupyear"><?php $plxPlugin->lang('L_GROUPYEAR'); ?> : </label></p>
-		<input type="checkbox" <? if ($plxPlugin->getParam('groupyear') == 1) echo "checked=\"checked\""; ?> id="groupyear" name="groupyear" value="groupyear">
+		<input type="checkbox" <?php if ($plxPlugin->getParam('groupyear') == 1) echo "checked=\"checked\""; ?> id="groupyear" name="groupyear" value="groupyear">
 		
 		<p>
 			<?php echo plxToken::getTokenPostMethod() ?>
