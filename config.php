@@ -192,43 +192,43 @@ if(!empty($_POST)) {
 	</thead>
 		<tbody>
 			<tr class="line-1">
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('article') == 1) echo "checked=\"checked\""; ?>  id="ref_article" name="ref[article]" value="article"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('article') == 1) echo "checked=\"checked\""; ?>  id="ref_article" name="ref[article]" value="article"></td>
 				<td><?php $plxPlugin->lang('L_ARTICLE'); ?></td>
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('manual') == 1) echo "checked=\"checked\""; ?>  id="ref_manual" name="ref[manual]" value="manual"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('manual') == 1) echo "checked=\"checked\""; ?>  id="ref_manual" name="ref[manual]" value="manual"></td>
 				<td><?php $plxPlugin->lang('L_MANUAL'); ?></td>
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('_unknown') == 1) echo "checked=\"checked\""; ?>  id="ref_unknown" name="ref[_unknown]" value="_unknown"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('_unknown') == 1) echo "checked=\"checked\""; ?>  id="ref_unknown" name="ref[_unknown]" value="_unknown"></td>
 				<td ><?php $plxPlugin->lang('L_UNKNOWN'); ?></td>
 			</tr>
 			<tr class="line-0">
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('book') == 1) echo "checked=\"checked\""; ?>  id="ref_book" name="ref[book]" value="book"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('book') == 1) echo "checked=\"checked\""; ?>  id="ref_book" name="ref[book]" value="book"></td>
 				<td><?php $plxPlugin->lang('L_BOOK'); ?></td>
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('mastersthesis') == 1) echo "checked=\"checked\""; ?>  id="ref_mastersthesis" name="ref[mastersthesis]" value="mastersthesis"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('mastersthesis') == 1) echo "checked=\"checked\""; ?>  id="ref_mastersthesis" name="ref[mastersthesis]" value="mastersthesis"></td>
 				<td><?php $plxPlugin->lang('L_MASTERTHESIS'); ?></td>
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('unpublished') == 1) echo "checked=\"checked\""; ?>  id="ref_unpublished" name="ref[unpublished]" value="unpublished"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('unpublished') == 1) echo "checked=\"checked\""; ?>  id="ref_unpublished" name="ref[unpublished]" value="unpublished"></td>
 				<td><?php $plxPlugin->lang('L_UNPUBLISHED'); ?></td>
 			</tr>
 			<tr class="line-1">
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('booklet') == 1) echo "checked=\"checked\""; ?>  id="ref_booklet" name="ref[booklet]" value="booklet"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('booklet') == 1) echo "checked=\"checked\""; ?>  id="ref_booklet" name="ref[booklet]" value="booklet"></td>
 				<td><?php $plxPlugin->lang('L_BOOKLET'); ?></td>
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('misc') == 1) echo "checked=\"checked\""; ?>  id="ref_misc" name="ref[misc]" value="misc"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('misc') == 1) echo "checked=\"checked\""; ?>  id="ref_misc" name="ref[misc]" value="misc"></td>
 				<td><?php $plxPlugin->lang('L_MISC'); ?></td>
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('inproceedings') == 1) echo "checked=\"checked\""; ?>  id="ref_inproceedings" name="ref[inproceedings]" value="inproceedings"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('inproceedings') == 1) echo "checked=\"checked\""; ?>  id="ref_inproceedings" name="ref[inproceedings]" value="inproceedings"></td>
 				<td><?php $plxPlugin->lang('L_INPROCEEDINGS'); ?></td>
 			</tr>
 			<tr class="line-0">
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('conference') == 1) echo "checked=\"checked\""; ?>  id="ref_conference" name="ref[conference]" value="conference"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('conference') == 1) echo "checked=\"checked\""; ?>  id="ref_conference" name="ref[conference]" value="conference"></td>
 				<td><?php $plxPlugin->lang('L_CONFERENCE'); ?></td>
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('phdthesis') == 1) echo "checked=\"checked\""; ?>  id="ref_phdthesis" name="ref[phdthesis]" value="phdthesis"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('phdthesis') == 1) echo "checked=\"checked\""; ?>  id="ref_phdthesis" name="ref[phdthesis]" value="phdthesis"></td>
 				<td><?php $plxPlugin->lang('L_PHDTHESIS'); ?></td>
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('techreport') == 1) echo "checked=\"checked\""; ?>  id="ref_techreport" name="ref[techreport]" value="techreport"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('techreport') == 1) echo "checked=\"checked\""; ?>  id="ref_techreport" name="ref[techreport]" value="techreport"></td>
 				<td><?php $plxPlugin->lang('L_TECHREPORT'); ?></td>
 			</tr>
 			<tr class="line-1">
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('inbook') == 1) echo "checked=\"checked\""; ?>  id="ref_inbook" name="ref[inbook]" value="inbook"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('inbook') == 1) echo "checked=\"checked\""; ?>  id="ref_inbook" name="ref[inbook]" value="inbook"></td>
 				<td><?php $plxPlugin->lang('L_INBOOK'); ?></td>
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('proceedings') == 1) echo "checked=\"checked\""; ?>  id="ref_proceedings" name="ref[proceedings]" value="proceedings"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('proceedings') == 1) echo "checked=\"checked\""; ?>  id="ref_proceedings" name="ref[proceedings]" value="proceedings"></td>
 				<td><?php $plxPlugin->lang('L_PROCEEDINGS'); ?></td>
-				<td><input type="checkbox" <? if ($plxPlugin->getParam('incollection') == 1) echo "checked=\"checked\""; ?>  id="ref_incollection" name="ref[incollection]" value="incollection"></td>
+				<td><input type="checkbox" <?php if ($plxPlugin->getParam('incollection') == 1) echo "checked=\"checked\""; ?>  id="ref_incollection" name="ref[incollection]" value="incollection"></td>
 				<td><?php $plxPlugin->lang('L_INCOLLECTION'); ?></td>
 			</tr>
 
